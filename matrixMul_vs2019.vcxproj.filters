@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="Fluids\Fluid_Kernels.cu">
+      <Filter>source files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Fluids\solver.cu">
+      <Filter>source files</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Fluids\Fluid_Kernels.cuh">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fluids\Setting.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fluids\solver.cuh">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fluids\TCPServer.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fluids\visualizer.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\json.hpp">
+      <Filter>header files\extern</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\packet.h">
+      <Filter>header files\extern</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Fluids\demo.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fluids\Setting.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fluids\TCPServer.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fluids\visualizer.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\packet.cpp">
+      <Filter>source files\extern</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="resource">
+      <UniqueIdentifier>{21026737-d742-47ef-9b43-d5f62639dbe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files">
+      <UniqueIdentifier>{b97b5246-c437-4b00-9de1-6d312b9ce357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files">
+      <UniqueIdentifier>{1e3c4e82-6377-48ba-9775-ab2568d0e781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\extern">
+      <UniqueIdentifier>{7c0306be-2c5e-470d-9c35-caeaf68db31c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\extern">
+      <UniqueIdentifier>{f24b6800-3988-47f1-b255-131a007d4939}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="settings\setting2.json">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="settings\setting3.json">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="settings\setting1.json">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="settings\setting_tower1.json">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="settings\setting_tower2.json">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="settings\setting_tower3.json">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="settings\setting_tower4.json">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="settings\setting4.json">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="settings\setting_multiAC.json">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="settings\setting_manual_ceiling.json">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="settings\setting_manual_tower.json">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="settings\setting.txt">
+      <Filter>resource</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

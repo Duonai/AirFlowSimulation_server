@@ -1,0 +1,41 @@
+[eulerian]
+gridX 60
+gridY 27
+gridZ 60
+timeStep 0.005
+diffuse 1.0e-6
+viscosity 1.0e-7
+buoyancy 0.007
+gravity -9.8
+force 0.83
+srcTem 12
+minTem 15
+maxTem 35
+curTem 30
+
+[environment]
+saveData false
+saveAvg true
+temHistory true
+saveInterval 1000
+scale 10
+fastScale 6
+endtime 0
+sAttenuationR 0.8
+sAttenuationP 100
+useUpSampling false
+drawScale 0.5
+drawSecond false
+
+[machine]
+type ceiling
+posX 30
+posY 26
+posZ 30
+ventDir 2
+ventSpeed 1
+ventDist 4
+tarTem 21
+initAngle 25
+interval 10
+swingSpeed 0.001

@@ -1,0 +1,50 @@
+{
+  "Eulerian": {
+    "gridX": 60,
+    "gridY": 27,
+    "gridZ": 60,
+    "timeStep": 0.005,
+    "diffuse": 1.0e-6,
+    "viscosity": 1.0e-7,
+    "buoyancy": 0.007,
+    "gravity": -9.8,
+    "force": 0.83,
+    "minTem": 12,
+    "maxTem": 32.5,
+    "srcTem": 15,
+    "curTem": 30
+  },
+  "Environment": {
+    "saveData": false,
+    "saveAvg": true,
+    "temHistory": true,
+    "saveInterval": 50,
+    "scale": 10,
+    "fastScale": 6,
+    "endtime": 0,
+    "sAttenuationR": 0.8,
+    "sAttenuationP": 100,
+    "useUpSampling": false,
+    "drawScale": 0.2,
+    "drawSecond": false
+  },
+  "Machine": {
+    "machineCount": 1,
+    "MachineInfo": [
+      {
+        "type": "wall",
+        "posX": 4,
+        "posY": 24,
+        "posZ": 30,
+        "ventDir": 3,
+        "ventSpeed": 3,
+        "ventDist": 4,
+        "tarTem": 20,
+        "initAngle": 55,
+        "interval": 10,
+        "windType": "power",
+        "direction": 0
+      }
+    ]
+  }
+}
